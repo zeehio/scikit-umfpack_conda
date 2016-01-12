@@ -6,9 +6,9 @@ source:
   fn: scikit-umfpack-0.2.1.tar.gz
   url: https://pypi.python.org/packages/source/s/scikit-umfpack/scikit-umfpack-0.2.1.tar.gz
   md5: 582d6a1b78576d1b6dc8c5f95635c24e
-#  patches:
+  patches:
    # List any patch files here
-   # - fix.patch
+   - readme_utf8.fix
 
 build:
   # entry_points:
